@@ -1,43 +1,15 @@
-# ===============================
-# Core Deep Learning Libraries
-# ===============================
-torch==2.9.0
-torchvision==0.24.0
-torchaudio==2.9.0
-
-# ===============================
-# Numerical and Scientific Tools
-# ===============================
-numpy==2.3.4
-pandas==2.3.3
-scipy==1.16.3
-
-# ===============================
-# Image Processing
-# ===============================
-Pillow==12.0.0
-opencv-python==4.12.0.88
-scikit-image==0.25.2
-
-# ===============================
-# Progress Bar and Utilities
-# ===============================
+# Python 3.11
+torch==2.9.0+cpu
+torchvision==0.24.0+cpu
+numpy==2.2.6
+matplotlib==3.8.4
 tqdm==4.67.1
-filelock==3.20.0
 
-# ===============================
-# Visualization and Plotting
-# ===============================
-matplotlib==3.10.7
-seaborn==0.13.2
 
-# ===============================
-# Command-Line and Argument Parsing
-# ===============================
-argparse==1.4.0
-
-# ===============================
-# Dataset Handling and ML Tools
-# ===============================
-scikit-learn==1.7.2
-joblib==1.5.2
+# for gpu p---->>>
+# # Python 3.11
+# torch==2.9.0+cu121
+# torchvision==0.24.0+cu121
+# numpy==2.2.6
+# matplotlib==3.8.4
+# tqdm==4.67.1
